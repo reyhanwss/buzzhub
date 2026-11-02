@@ -177,3 +177,68 @@ document.getElementById("mobileMenu").addEventListener("click", () => {
     });
   }
 });
+/* BUZZHUB - FONT SIZE UPGRADE */
+
+/* Ukuran teks dasar */
+body {
+  font-size: 17px;
+}
+
+/* Paragraf dan informasi */
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Menu navigasi */
+.desktop-nav,
+nav {
+  font-size: 15px;
+}
+
+/* Tombol */
+button,
+.button,
+a.button {
+  font-size: 15px;
+}
+
+/* Judul kartu */
+h3 {
+  font-size: 21px;
+}
+
+/* Judul bagian */
+h2 {
+  font-size: 40px;
+}
+
+/* Label dan informasi kecil */
+small,
+.caption {
+  font-size: 13px;
+}
+
+/* Khusus layar HP */
+@media (max-width: 760px) {
+  body {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  small,
+  .caption {
+    font-size: 12px;
+  }
+}
