@@ -181,31 +181,31 @@ document.getElementById("mobileMenu").addEventListener("click", () => {
 
 /* Ukuran teks dasar */
 body {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 /* Paragraf dan informasi */
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
 /* Menu navigasi */
 .desktop-nav,
 nav {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* Tombol */
 button,
 .button,
 a.button {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* Judul kartu */
 h3 {
-  font-size: 21px;
+  font-size: 22px;
 }
 
 /* Judul bagian */
@@ -216,7 +216,7 @@ h2 {
 /* Label dan informasi kecil */
 small,
 .caption {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 /* Khusus layar HP */
@@ -239,6 +239,6 @@ small,
 
   small,
   .caption {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
