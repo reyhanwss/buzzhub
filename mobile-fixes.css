@@ -1,0 +1,91 @@
+/* BuzzHub mobile readability and responsive refinements */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { font-size: 16px; }
+.hero-description, .section-heading > p, .dashboard-copy > p, .cta-box > p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.desktop-nav { font-size: 14px; }
+.button { font-size: 14px; }
+.eyebrow { font-size: 11px; }
+.trust-line { font-size: 13px; line-height: 1.6; }
+.service-card p, .step p { font-size: 14px; line-height: 1.75; }
+.service-card a, .text-link { font-size: 13px; }
+.footer { font-size: 12px; }
+.workspace-row small, .progress-list span { font-size: 11px; }
+.progress-list b { font-size: 12px; }
+.demo-label { font-size: 10px; }
+
+@media (max-width: 760px) {
+  .section-wrap, .topbar { width: min(100% - 32px, 560px); }
+  .topbar { height: 70px; }
+  .desktop-nav { display: none; }
+  .top-actions { gap: 8px; }
+  .top-actions .login-link { display: none; }
+  .button { padding: 10px 12px; font-size: 13px; }
+  .mobile-menu { display: block; padding: 6px; }
+  .hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding-top: 52px;
+    padding-bottom: 54px;
+  }
+  .hero h1 { font-size: clamp(36px, 10vw, 48px); line-height: 1.12; }
+  .hero-description { font-size: 16px; }
+  .hero-visual { width: 100%; }
+  .dashboard-window { transform: none; }
+  .window-top { font-size: 8px; }
+  .window-body { grid-template-columns: 34px minmax(0, 1fr); min-height: 300px; }
+  .mini-content { padding: 10px; min-width: 0; }
+  .mini-welcome h3 { font-size: 14px; }
+  .mini-welcome small, .stat-card small, .chart-heading small,
+  .bottom-card small { font-size: 9px; }
+  .stat-grid { gap: 5px; }
+  .stat-card { padding: 8px 6px; }
+  .stat-card strong { font-size: 18px; }
+  .stat-card em { font-size: 9px; }
+  .chart-heading h4 { font-size: 12px; }
+  .chart-heading > span { font-size: 9px; }
+  .chart-y, .chart-x { font-size: 9px; }
+  .bottom-card { padding: 8px; }
+  .bottom-card b { font-size: 10px; }
+  .bottom-card span { font-size: 9px; }
+  .floating-note { left: 8px; bottom: -22px; padding: 9px 11px; }
+  .floating-note b { font-size: 11px; }
+  .floating-note small { font-size: 9px; }
+  .logo-strip { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .logo-strip div { width: 100%; flex-wrap: wrap; gap: 12px 22px; font-size: 11px; }
+  .services-section, .dashboard-section { padding-top: 72px; padding-bottom: 72px; }
+  .section-heading { display: block; margin-bottom: 28px; }
+  .section-heading h2, .dashboard-copy h2 { font-size: clamp(32px, 8vw, 40px); }
+  .section-heading > p { font-size: 15px; margin-top: 16px; }
+  .service-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .service-card { padding: 17px 14px; min-height: 0; }
+  .service-icon { margin-bottom: 16px; }
+  .service-card h3 { font-size: 15px; line-height: 1.35; }
+  .service-card p { font-size: 13px; min-height: 0; }
+  .service-card a { margin-top: 14px; font-size: 12px; }
+  .how-section { padding: 66px 0; }
+  .steps { grid-template-columns: 1fr; gap: 24px; }
+  .step h3 { font-size: 18px; margin-top: 15px; }
+  .step p { font-size: 14px; }
+  .dashboard-section { grid-template-columns: 1fr; gap: 28px; }
+  .workspace-card { padding: 16px; }
+  .workspace-row { gap: 7px; }
+  .workspace-row > div { padding: 10px 8px; }
+  .workspace-row strong { font-size: 22px; }
+  .cta-section { padding-bottom: 70px; }
+  .cta-box { padding: 48px 18px; }
+  .cta-box h2 { font-size: clamp(32px, 8vw, 42px); }
+  .cta-box > p { font-size: 15px; }
+  .footer { flex-wrap: wrap; gap: 16px; font-size: 11px; }
+  .footer > div { width: 100%; justify-content: space-between; gap: 12px; }
+}
+@media (max-width: 380px) {
+  .section-wrap, .topbar { width: calc(100% - 24px); }
+  .service-grid { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 35px; }
+  .window-top { padding-inline: 8px; }
+  .live-pill { font-size: 7px; }
+}
