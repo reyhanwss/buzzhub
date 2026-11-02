@@ -89,3 +89,52 @@ body { font-size: 16px; }
   .window-top { padding-inline: 8px; }
   .live-pill { font-size: 7px; }
 }
+/* FIX MOBILE HORIZONTAL OVERFLOW */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+svg,
+video,
+canvas,
+iframe {
+  max-width: 100%;
+}
+
+section,
+header,
+footer,
+main,
+.section-wrap,
+.topbar,
+.hero,
+.hero-visual,
+.dashboard-window,
+.workspace-card {
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 760px) {
+  .hero-visual,
+  .dashboard-window,
+  .workspace-card {
+    transform: none;
+    max-width: 100%;
+  }
+}
