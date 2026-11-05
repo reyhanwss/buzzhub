@@ -1,4 +1,4 @@
 // Isi dari Supabase > Project Settings > API Keys
-const SUPABASE_URL = "https://pvcdgpnaysaeoektjduc.supabase.co";
-const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_Z4ntHqvmnb1EJh3j9e6VZQ_JceSt_PH";
+const SUPABASE_URL = "PASTE_PROJECT_URL";
+const SUPABASE_PUBLISHABLE_KEY = "PASTE_SB_PUBLISHABLE_KEY";
 const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
